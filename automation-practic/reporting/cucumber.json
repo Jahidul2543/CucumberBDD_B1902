@@ -1,0 +1,198 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4019884283,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.initializeTest()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Search items using search box",
+        "description": "",
+        "id": "search;search-items-using-search-box;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 80195057,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDownTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 98928044,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User must be in home page",
+            "match": {
+              "location": "Search_with_example_steps_definitions.user_must_be_in_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1104555564,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User search \"books\" using search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "books",
+                  "offset": 13
+                }
+              ],
+              "location": "Search_with_example_steps_definitions.user_search_using_search_box(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30125193,
+              "error_message": "java.lang.AssertionError: expected [No results were found for your search books] but found [No results were found for your search \"books\"]\n\tat org.testng.Assert.fail(Assert.java:96)\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:137)\n\tat org.testng.Assert.assertEquals(Assert.java:118)\n\tat org.testng.Assert.assertEquals(Assert.java:453)\n\tat org.testng.Assert.assertEquals(Assert.java:463)\n\tat stepDefinitions.Search_with_example_steps_definitions.related_items_should_be_on_the_screen(Search_with_example_steps_definitions.java:28)\n\tat ✽.Then Related items should be on the \"No results were found for your search books\" screen(search_with_examples.feature:6)\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "Related items should be on the \"No results were found for your search books\" screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "No results were found for your search books",
+                  "offset": 32
+                }
+              ],
+              "location": "Search_with_example_steps_definitions.related_items_should_be_on_the_screen(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4102450843,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.initializeTest()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Search items using search box",
+        "description": "",
+        "id": "search;search-items-using-search-box;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 76534777,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDownTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6228980,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User must be in home page",
+            "match": {
+              "location": "Search_with_example_steps_definitions.user_must_be_in_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 978518534,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User search \"pen\" using search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pen",
+                  "offset": 13
+                }
+              ],
+              "location": "Search_with_example_steps_definitions.user_search_using_search_box(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 26298193,
+              "error_message": "java.lang.AssertionError: expected [No results were found for your search pen] but found [No results were found for your search \"pen\"]\n\tat org.testng.Assert.fail(Assert.java:96)\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:137)\n\tat org.testng.Assert.assertEquals(Assert.java:118)\n\tat org.testng.Assert.assertEquals(Assert.java:453)\n\tat org.testng.Assert.assertEquals(Assert.java:463)\n\tat stepDefinitions.Search_with_example_steps_definitions.related_items_should_be_on_the_screen(Search_with_example_steps_definitions.java:28)\n\tat ✽.Then Related items should be on the \"No results were found for your search pen\" screen(search_with_examples.feature:6)\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "Related items should be on the \"No results were found for your search pen\" screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "No results were found for your search pen",
+                  "offset": 32
+                }
+              ],
+              "location": "Search_with_example_steps_definitions.related_items_should_be_on_the_screen(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Search",
+    "description": "",
+    "id": "search",
+    "keyword": "Feature",
+    "uri": "search_with_examples.feature"
+  }
+]

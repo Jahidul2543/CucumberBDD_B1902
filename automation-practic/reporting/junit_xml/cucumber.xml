@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="10.523719">
+<testcase classname="Search" name="Search items using search box" time="5.333688">
+<failure message="java.lang.AssertionError: expected [No results were found for your search books] but found [No results were found for your search &quot;books&quot;]&#10;&#9;at org.testng.Assert.fail(Assert.java:96)&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:776)&#10;&#9;at org.testng.Assert.assertEqualsImpl(Assert.java:137)&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:118)&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:453)&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:463)&#10;&#9;at stepDefinitions.Search_with_example_steps_definitions.related_items_should_be_on_the_screen(Search_with_example_steps_definitions.java:28)&#10;&#9;at ✽.Then Related items should be on the &quot;No results were found for your search books&quot; screen(search_with_examples.feature:6)&#10;"><![CDATA[Given User must be in home page.............................................passed
+When User search "books" using search box...................................passed
+Then Related items should be on the "No results were found for your search books" screen.failed
+
+StackTrace:
+java.lang.AssertionError: expected [No results were found for your search books] but found [No results were found for your search "books"]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at stepDefinitions.Search_with_example_steps_definitions.related_items_should_be_on_the_screen(Search_with_example_steps_definitions.java:28)
+	at ✽.Then Related items should be on the "No results were found for your search books" screen(search_with_examples.feature:6)
+]]></failure>
+</testcase>
+<testcase classname="Search" name="Search items using search box 2" time="5.190031">
+<failure message="java.lang.AssertionError: expected [No results were found for your search pen] but found [No results were found for your search &quot;pen&quot;]&#10;&#9;at org.testng.Assert.fail(Assert.java:96)&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:776)&#10;&#9;at org.testng.Assert.assertEqualsImpl(Assert.java:137)&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:118)&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:453)&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:463)&#10;&#9;at stepDefinitions.Search_with_example_steps_definitions.related_items_should_be_on_the_screen(Search_with_example_steps_definitions.java:28)&#10;&#9;at ✽.Then Related items should be on the &quot;No results were found for your search pen&quot; screen(search_with_examples.feature:6)&#10;"><![CDATA[Given User must be in home page.............................................passed
+When User search "pen" using search box.....................................passed
+Then Related items should be on the "No results were found for your search pen" screen.failed
+
+StackTrace:
+java.lang.AssertionError: expected [No results were found for your search pen] but found [No results were found for your search "pen"]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at stepDefinitions.Search_with_example_steps_definitions.related_items_should_be_on_the_screen(Search_with_example_steps_definitions.java:28)
+	at ✽.Then Related items should be on the "No results were found for your search pen" screen(search_with_examples.feature:6)
+]]></failure>
+</testcase>
+</testsuite>
